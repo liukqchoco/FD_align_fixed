@@ -1,0 +1,72 @@
+_wandb:
+    value:
+        cli_version: 0.19.2
+        m:
+            - "1": trainer/global_step
+              "6":
+                - 3
+              "7": []
+        python_version: 3.8.20
+        t:
+            "1":
+                - 1
+                - 5
+                - 9
+                - 41
+                - 53
+                - 55
+            "2":
+                - 1
+                - 5
+                - 9
+                - 41
+                - 53
+                - 55
+            "3":
+                - 7
+                - 13
+                - 14
+                - 23
+                - 55
+                - 66
+            "4": 3.8.20
+            "5": 0.19.2
+            "8":
+                - 3
+                - 5
+            "12": 0.19.2
+            "13": windows-amd64
+backbone_name:
+    value: ViT_B_32_clip
+decay_epochs:
+    value: None
+decay_power:
+    value: None
+decay_scheduler:
+    value: cosine
+lr:
+    value: 5e-05
+num_query:
+    value: 15
+optim_type:
+    value: sgd
+test_batch_size_per_gpu:
+    value: 8
+test_shot:
+    value: 1
+test_way:
+    value: 5
+train_batch_size_per_gpu:
+    value: 4
+train_shot:
+    value: 5
+train_way:
+    value: 5
+val_batch_size_per_gpu:
+    value: 8
+val_shot:
+    value: 1
+val_way:
+    value: 5
+weight_decay:
+    value: 0.0005

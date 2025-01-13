@@ -1,0 +1,37 @@
+{
+  "os": "Windows-10-10.0.22631-SP0",
+  "python": "CPython 3.8.20",
+  "startedAt": "2025-01-13T06:36:00.731888Z",
+  "args": [
+    "--config",
+    "config/config.yaml",
+    "--trainer.gpus",
+    "0"
+  ],
+  "program": "D:\\NJUsemesters\\Third1\\ML_fewshot\\FD-Align\\run.py",
+  "codePath": "run.py",
+  "git": {
+    "remote": "https://github.com/skingorz/FD-Align.git",
+    "commit": "b1bd4dd68d1f62796a4ad1b514d32467f0cb010c"
+  },
+  "email": "2960756932@qq.com",
+  "root": "./results/PN_FDAlign/1shot",
+  "host": "qkl123",
+  "executable": "D:\\Anaconda\\envs\\fdalign\\python.exe",
+  "codePathLocal": "run.py",
+  "cpu_count": 12,
+  "cpu_count_logical": 16,
+  "disk": {
+    "/": {
+      "total": "482552573952",
+      "used": "446910398464"
+    }
+  },
+  "memory": {
+    "total": "16829440000"
+  },
+  "cpu": {
+    "count": 12,
+    "countLogical": 16
+  }
+}
